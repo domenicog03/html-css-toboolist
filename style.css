@@ -1,3 +1,9 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #f6f8f9;
     font-family: 'Roboto', sans-serif;
@@ -13,4 +19,94 @@ header {
 }
 .app-logo {
     vertical-align: middle;
+}
+
+main {
+    margin-top: 40px;
+    color: #434851;
+}
+.task-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.tasks-buttons {
+    padding: 10px 40px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+
+.btn {
+    padding: 6px 10px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-blue {
+    background: #14aaf5;
+    border-color: #14aaf5;
+    color: #fff;
+}
+.btn-gray {
+    border-color: #c4cbd0;
+    color: #c4cbd0;
+}
+
+.tasks-sections {
+    padding: 40px;
+}
+.task-group {
+    margin-bottom: 20px;
+}
+.tasks-list {
+    list-style: none;
+}
+
+.task {
+    margin-bottom: 10px;
+}
+.task-text {
+    display: inline-block;
+    margin: auto 4px;
+}
+
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 24px;
+}
+.circle-done {
+    color: #3acab0;
+    border-color: #3acab0;
+}
+.circle-danger {
+    color: red;
+    border-color: red;
+}
+
+/*--------------
+    TAGS
+---------------*/
+.tag {
+    display: inline-block;
+    padding: 6px 10px;
+    color: #ffffff;
+    border-radius: 16px;
+    font-size: 12px;
+}
+.tag-blue {
+    background: #09a9ed;
+}
+.tag-green {
+    background: #2cc6ab;
+}
+.tag-orange {
+    background: #ff9b00;
 }
